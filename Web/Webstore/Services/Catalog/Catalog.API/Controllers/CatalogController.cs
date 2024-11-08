@@ -10,10 +10,10 @@ namespace Catalog.API.Controllers
     [Route("api/v1/[controller]")]
     public class CatalogController : ControllerBase
     {
-        IProductRepostories _repository; 
+        private readonly IProductRepostories _repository; 
         // U sustini, stavljamo ovaj repozitorijum da mi bismo mogli samo direktno preko interfejsa da pristupamo nekoj bazi
         // A da ne moramo 100 puta da menjamo neku bazu ako zelimo da menjamo
-        CatalogController(IProductRepostories repository) { 
+        public CatalogController(IProductRepostories repository) { 
             _repository = repository ?? throw new ArgumentNullException(nameof(repository));
         }
 
@@ -39,10 +39,10 @@ namespace Catalog.API.Controllers
         }
 
         [HttpGet]
-        [Route("[action]/[category]")]
+        [Route("[action]/{category}")]
         [ProducesResponseType(typeof(Product), StatusCodes.Status200OK)]
         public async Task<ActionResult<IEnumerable<Product>>> GetProductByCategory(string category) { 
-            var product = _repository.GetProductByCategory(category);
+            var product = await _repository.GetProductByCategory(category);
             if (product == null) { 
                 return NotFound(null);
             }
