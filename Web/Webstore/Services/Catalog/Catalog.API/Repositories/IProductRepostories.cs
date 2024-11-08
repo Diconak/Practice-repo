@@ -8,5 +8,10 @@ namespace Catalog.API.Repositories
     {
         //Task je u sustini promise, koristi se za asinhrono pisanje funckija
         Task<IEnumerable<Product>> GetProducts();
+        Task<Product> GetProductByID(string id);
+        Task<IEnumerable<Product>> GetProductByCategory(string category);
+        Task CreateProduct(Product product);
+        Task<bool> UpdateProduct(Product product);
+        Task<bool> DeleteProduct(string id);
     }
 }

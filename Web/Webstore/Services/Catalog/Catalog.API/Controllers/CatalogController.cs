@@ -25,5 +25,63 @@ namespace Catalog.API.Controllers
             var products = await _repository.GetProducts();
             return Ok(products);
         }
+
+        [HttpGet("{id}", Name ="GetProducts")]
+        [ProducesResponseType(typeof(Product), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(Product), StatusCodes.Status404NotFound)]
+        public async Task<ActionResult<Product>> GetProductById(string id) { 
+            var product = await _repository.GetProductByID(id);
+            if (product == null)
+            {
+                return NotFound(null);
+            }
+            return Ok(product);
+        }
+
+        [HttpGet]
+        [Route("[action]/[category]")]
+        [ProducesResponseType(typeof(Product), StatusCodes.Status200OK)]
+        public async Task<ActionResult<IEnumerable<Product>>> GetProductByCategory(string category) { 
+            var product = _repository.GetProductByCategory(category);
+            if (product == null) { 
+                return NotFound(null);
+            }
+            return Ok(product);
+        
+        }
+
+
+        [HttpPost]
+        [ProducesResponseType(typeof(Product), StatusCodes.Status201Created)]
+        //Uvodimo ovde [FromBody] ovo nam omogucava da prosledim podatke iz tela zahteva
+        public async Task<ActionResult<Product>> CreateProduct([FromBody] Product product) { 
+            await _repository.CreateProduct(product);
+            return CreatedAtAction("GetProduct", new { id = product.Id }, product);
+        
+        }
+
+        [HttpPut]
+        [ProducesResponseType(typeof(Product), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(Product), StatusCodes.Status404NotFound)]
+        public async Task<IActionResult> UpdateProduct([FromBody] Product product) { 
+            var res = await _repository.UpdateProduct(product);
+            if (res == null) {
+                return NotFound(null);
+            }
+            return Ok(res);
+        }
+
+        [HttpDelete]
+        [ProducesResponseType(typeof(Product), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(Product), StatusCodes.Status404NotFound)]
+        public async Task<ActionResult> DeleteProduct(string id) { 
+            var res = _repository.DeleteProduct(id);
+            if (res == null) { 
+                return NotFound(null);
+            }
+            return Ok();
+        }
+
+
     }
 }
