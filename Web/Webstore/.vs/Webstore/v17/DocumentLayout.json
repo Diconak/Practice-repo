@@ -1,69 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\dimit\\Desktop\\Practice-repo\\Web\\Webstore\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{D6FAF1B3-C4CF-4D5D-A49F-FBA2802DFE4C}|Services\\Catalog\\Catalog.API\\Catalog.API.csproj|c:\\users\\dimit\\desktop\\practice-repo\\web\\webstore\\services\\catalog\\catalog.api\\controllers\\catalogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6FAF1B3-C4CF-4D5D-A49F-FBA2802DFE4C}|Services\\Catalog\\Catalog.API\\Catalog.API.csproj|solutionrelative:services\\catalog\\catalog.api\\controllers\\catalogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6FAF1B3-C4CF-4D5D-A49F-FBA2802DFE4C}|Services\\Catalog\\Catalog.API\\Catalog.API.csproj|c:\\users\\dimit\\desktop\\practice-repo\\web\\webstore\\services\\catalog\\catalog.api\\repositories\\iproductrepostories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6FAF1B3-C4CF-4D5D-A49F-FBA2802DFE4C}|Services\\Catalog\\Catalog.API\\Catalog.API.csproj|solutionrelative:services\\catalog\\catalog.api\\repositories\\iproductrepostories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6FAF1B3-C4CF-4D5D-A49F-FBA2802DFE4C}|Services\\Catalog\\Catalog.API\\Catalog.API.csproj|c:\\users\\dimit\\desktop\\practice-repo\\web\\webstore\\services\\catalog\\catalog.api\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6FAF1B3-C4CF-4D5D-A49F-FBA2802DFE4C}|Services\\Catalog\\Catalog.API\\Catalog.API.csproj|solutionrelative:services\\catalog\\catalog.api\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 2,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProductRepository.cs",
-              "DocumentMoniker": "C:\\Users\\dimit\\Desktop\\Practice-repo\\Web\\Webstore\\Services\\Catalog\\Catalog.API\\Repositories\\ProductRepository.cs",
-              "RelativeDocumentMoniker": "Services\\Catalog\\Catalog.API\\Repositories\\ProductRepository.cs",
-              "ToolTip": "C:\\Users\\dimit\\Desktop\\Practice-repo\\Web\\Webstore\\Services\\Catalog\\Catalog.API\\Repositories\\ProductRepository.cs",
-              "RelativeToolTip": "Services\\Catalog\\Catalog.API\\Repositories\\ProductRepository.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAgwCUAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T23:48:36.21Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IProductRepostories.cs",
-              "DocumentMoniker": "C:\\Users\\dimit\\Desktop\\Practice-repo\\Web\\Webstore\\Services\\Catalog\\Catalog.API\\Repositories\\IProductRepostories.cs",
-              "RelativeDocumentMoniker": "Services\\Catalog\\Catalog.API\\Repositories\\IProductRepostories.cs",
-              "ToolTip": "C:\\Users\\dimit\\Desktop\\Practice-repo\\Web\\Webstore\\Services\\Catalog\\Catalog.API\\Repositories\\IProductRepostories.cs",
-              "RelativeToolTip": "Services\\Catalog\\Catalog.API\\Repositories\\IProductRepostories.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T23:47:09.107Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CatalogController.cs",
-              "DocumentMoniker": "C:\\Users\\dimit\\Desktop\\Practice-repo\\Web\\Webstore\\Services\\Catalog\\Catalog.API\\Controllers\\CatalogController.cs",
-              "RelativeDocumentMoniker": "Services\\Catalog\\Catalog.API\\Controllers\\CatalogController.cs",
-              "ToolTip": "C:\\Users\\dimit\\Desktop\\Practice-repo\\Web\\Webstore\\Services\\Catalog\\Catalog.API\\Controllers\\CatalogController.cs",
-              "RelativeToolTip": "Services\\Catalog\\Catalog.API\\Controllers\\CatalogController.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAYwCwAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T19:40:39.442Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }
