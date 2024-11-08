@@ -13,7 +13,7 @@ namespace Basket.API.Controllers
             _basketRepository = basketRepository ?? throw new ArgumentNullException(nameof(basketRepository));
         }
 
-        [HttpGet("username")]
+        [HttpGet("{username}")]
         [ProducesResponseType(typeof(ShoppingCart), StatusCodes.Status200OK)]
         [ProducesResponseType(typeof(ShoppingCart), StatusCodes.Status404NotFound)]
         public async Task<ActionResult<ShoppingCart>> GetBasket(string username) { 
@@ -21,13 +21,13 @@ namespace Basket.API.Controllers
             if (basket == null) { 
                 return NotFound();
             }
-            return Ok(basket);
+            return Ok(basket ?? new ShoppingCart(username));
         }
 
         [HttpPut]
         [ProducesResponseType(typeof(ShoppingCart), StatusCodes.Status200OK)]
         [ProducesResponseType(typeof(ShoppingCart), StatusCodes.Status404NotFound)]
-        public async Task<ActionResult<ShoppingCart>> UpdateBasket(ShoppingCart basket) { 
+        public async Task<ActionResult<ShoppingCart>> UpdateBasket([FromBody] ShoppingCart basket) { 
             var cart = await _basketRepository.UpdateBasket(basket);
             if (cart == null) {
                 return NotFound();

@@ -12,14 +12,14 @@ namespace Basket.API.Repository
         public BasketRepository(IDistributedCache cache) { 
             _cache = cache ?? throw new ArgumentNullException(nameof(cache));
         }
-        public async Task<ShoppingCart> GetBasket(string username) { 
+        public async Task<ShoppingCart?> GetBasket(string username) { 
             var basket = await _cache.GetStringAsync(username);
             if (String.IsNullOrEmpty(basket)) {
                 return null;
             }
             return JsonConvert.DeserializeObject<ShoppingCart>(basket);
         }
-        public async Task<ShoppingCart> UpdateBasket(ShoppingCart basket) { 
+        public async Task<ShoppingCart?> UpdateBasket(ShoppingCart basket) { 
             var basketString = JsonConvert.SerializeObject(basket);
             await _cache.SetStringAsync(basket.Username, basketString);
             return await GetBasket(basket.Username);
