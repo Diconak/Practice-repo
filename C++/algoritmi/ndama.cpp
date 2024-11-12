@@ -9,6 +9,7 @@ Na izlazu nam se ocekuju sve raspodele dama.
 
 #include<iostream>
 #include<vector>
+#include<cmath>
 
 using namespace std;
 
@@ -20,6 +21,7 @@ Da se dame ne bi napadale za njih mora da vazi da:
     -Na tabli ima tacno n dama
 */
 
+
 void drawBoard(vector<vector<int>> &v, int n){
     for(int i = 0; i < n; i++)
         for(int j = 0; j < n; j++)
@@ -30,31 +32,26 @@ void drawBoard(vector<vector<int>> &v, int n){
     cout << '\n';
 }
 
-bool provera(vector<vector<int>> &v ,int n, int k, int i){
+bool provera(vector<vector<int>> &v ,int n, int row, int col){
+
     //proveravamo za kolonu
     for(int j = 0; j < n; j++){
-        if(j != k && v[j][i] == 1)
+        if(j != row && v[j][col] == 1)
             return false;
     }
     //proveravamo vrstu
     for(int j = 0; j < n; j++){
-        if(j != i && v[k][j] == 1)
+        if(j != col && v[row][j] == 1)
             return false;
     }
     
-    //proveravamo glavna dijagonala
-    for(int j = 0; j < n; j++){
-        for(int l = 0; l < n; l++){
-            if(j != k && l != i && abs(k - i) == abs(l - j))
-                return false;
-        }
-    }
+    for(int l = row, j = col; l >= 0 && j >= n; l--, j--)
+        if(v[l][j])
+            return false;
 
-    /*for(int j = 0; j < n; j++){
-        for(int l = 0; l < n; l++)
-            if(j != k && l != i && abs(k + i) == abs(l + j))
-                return false;
-    }*/
+    for(int l = row, j = col; j >= 0 && l < n; l++, j--)
+        if(v[l][j])
+            return false;
 
     return true;
 }
@@ -66,8 +63,8 @@ void ndama(vector<vector<int>> &v ,int n, int k){
     }
 
     for(int i = 0; i < n; i++){
-        v[k][i] = 1;
-        if(provera(v, n, k, i))
+        v[i][k] = 1;
+        if(provera(v, n, i, k))
             ndama(v, n, k + 1);
         v[k][i] = 0;
     }
