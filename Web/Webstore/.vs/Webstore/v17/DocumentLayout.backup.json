@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\dimit\\Desktop\\Practice-repo\\Web\\Webstore\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D6FAF1B3-C4CF-4D5D-A49F-FBA2802DFE4C}|Services\\Catalog\\Catalog.API\\Catalog.API.csproj|c:\\users\\dimit\\desktop\\practice-repo\\web\\webstore\\services\\catalog\\catalog.api\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6FAF1B3-C4CF-4D5D-A49F-FBA2802DFE4C}|Services\\Catalog\\Catalog.API\\Catalog.API.csproj|solutionrelative:services\\catalog\\catalog.api\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F4F50412-A62F-491A-9287-7588C8F86921}|docker-compose.dcproj|c:\\users\\dimit\\desktop\\practice-repo\\web\\webstore\\docker-compose.dcproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F4F50412-A62F-491A-9287-7588C8F86921}|docker-compose.dcproj|solutionrelative:docker-compose.dcproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\dimit\\Desktop\\Practice-repo\\Web\\Webstore\\Services\\Catalog\\Catalog.API\\Entities\\Product.cs",
-              "RelativeDocumentMoniker": "Services\\Catalog\\Catalog.API\\Entities\\Product.cs",
-              "ToolTip": "C:\\Users\\dimit\\Desktop\\Practice-repo\\Web\\Webstore\\Services\\Catalog\\Catalog.API\\Entities\\Product.cs",
-              "RelativeToolTip": "Services\\Catalog\\Catalog.API\\Entities\\Product.cs",
+              "Title": "docker-compose",
+              "DocumentMoniker": "C:\\Users\\dimit\\Desktop\\Practice-repo\\Web\\Webstore\\docker-compose.dcproj",
+              "RelativeDocumentMoniker": "docker-compose.dcproj",
+              "ToolTip": "C:\\Users\\dimit\\Desktop\\Practice-repo\\Web\\Webstore\\docker-compose.dcproj",
+              "RelativeToolTip": "docker-compose.dcproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T23:33:29.478Z",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-09T17:44:20.055Z",
               "EditorCaption": ""
             }
           ]

@@ -31,3 +31,9 @@ C:\Users\dimit\Desktop\Practice-repo\Web\Webstore\Services\Catalog\Catalog.API\o
 C:\Users\dimit\Desktop\Practice-repo\Web\Webstore\Services\Catalog\Catalog.API\obj\Debug\net8.0\Catalog.API.pdb
 C:\Users\dimit\Desktop\Practice-repo\Web\Webstore\Services\Catalog\Catalog.API\obj\Debug\net8.0\Catalog.API.genruntimeconfig.cache
 C:\Users\dimit\Desktop\Practice-repo\Web\Webstore\Services\Catalog\Catalog.API\obj\Debug\net8.0\ref\Catalog.API.dll
+C:\Users\dimit\Desktop\Practice-repo\Web\Webstore\Services\Catalog\Catalog.API\bin\Debug\net8.0\DnsClient.dll
+C:\Users\dimit\Desktop\Practice-repo\Web\Webstore\Services\Catalog\Catalog.API\bin\Debug\net8.0\MongoDB.Bson.dll
+C:\Users\dimit\Desktop\Practice-repo\Web\Webstore\Services\Catalog\Catalog.API\bin\Debug\net8.0\MongoDB.Driver.dll
+C:\Users\dimit\Desktop\Practice-repo\Web\Webstore\Services\Catalog\Catalog.API\bin\Debug\net8.0\SharpCompress.dll
+C:\Users\dimit\Desktop\Practice-repo\Web\Webstore\Services\Catalog\Catalog.API\bin\Debug\net8.0\Snappier.dll
+C:\Users\dimit\Desktop\Practice-repo\Web\Webstore\Services\Catalog\Catalog.API\bin\Debug\net8.0\ZstdSharp.dll
