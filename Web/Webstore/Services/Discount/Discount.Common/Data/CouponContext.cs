@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Discount.Common.Data
 {
-    internal class CouponContext : ICouponContext
+    public class CouponContext : ICouponContext
     {
         private readonly IConfiguration _configuration;
 

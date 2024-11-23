@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace Discount.Common.Repository
 {
-    internal class CouponRepository : ICouponRepository
+    public class CouponRepository : ICouponRepository
     {
 
         private readonly ICouponContext _context;

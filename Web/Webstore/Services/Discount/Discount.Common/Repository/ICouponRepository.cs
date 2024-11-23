@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Discount.Common.Repository
 {
-    internal interface ICouponRepository
+    public interface ICouponRepository
     {
         Task<CouponDTO> GetDiscount(string productName);
         Task<bool> CreateDiscount(CreateCouponDTO coupon);

@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\dimit\\Desktop\\Practice-repo\\Web\\Webstore\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CB31D361-9F94-449B-85C6-4BACADD0CFA5}|Services\\Discount\\Discount.Common\\Discount.Common.csproj|c:\\users\\dimit\\desktop\\practice-repo\\web\\webstore\\services\\discount\\discount.common\\repository\\couponrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB31D361-9F94-449B-85C6-4BACADD0CFA5}|Services\\Discount\\Discount.Common\\Discount.Common.csproj|solutionrelative:services\\discount\\discount.common\\repository\\couponrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FB391575-AF9C-47D8-9AB6-09F0804C1B2A}|Services\\Discount\\Discount.API\\Discount.API.csproj|c:\\users\\dimit\\desktop\\practice-repo\\web\\webstore\\services\\discount\\discount.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FB391575-AF9C-47D8-9AB6-09F0804C1B2A}|Services\\Discount\\Discount.API\\Discount.API.csproj|solutionrelative:services\\discount\\discount.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CB31D361-9F94-449B-85C6-4BACADD0CFA5}|Services\\Discount\\Discount.Common\\Discount.Common.csproj|c:\\users\\dimit\\desktop\\practice-repo\\web\\webstore\\services\\discount\\discount.common\\repository\\icouponrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB31D361-9F94-449B-85C6-4BACADD0CFA5}|Services\\Discount\\Discount.Common\\Discount.Common.csproj|solutionrelative:services\\discount\\discount.common\\repository\\icouponrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FB391575-AF9C-47D8-9AB6-09F0804C1B2A}|Services\\Discount\\Discount.API\\Discount.API.csproj|c:\\users\\dimit\\desktop\\practice-repo\\web\\webstore\\services\\discount\\discount.api\\controllers\\discountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB391575-AF9C-47D8-9AB6-09F0804C1B2A}|Services\\Discount\\Discount.API\\Discount.API.csproj|solutionrelative:services\\discount\\discount.api\\controllers\\discountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB391575-AF9C-47D8-9AB6-09F0804C1B2A}|Services\\Discount\\Discount.API\\Discount.API.csproj|c:\\users\\dimit\\desktop\\practice-repo\\web\\webstore\\services\\discount\\discount.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB391575-AF9C-47D8-9AB6-09F0804C1B2A}|Services\\Discount\\Discount.API\\Discount.API.csproj|solutionrelative:services\\discount\\discount.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,27 +27,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CouponRepository.cs",
-              "DocumentMoniker": "C:\\Users\\dimit\\Desktop\\Practice-repo\\Web\\Webstore\\Services\\Discount\\Discount.Common\\Repository\\CouponRepository.cs",
-              "RelativeDocumentMoniker": "Services\\Discount\\Discount.Common\\Repository\\CouponRepository.cs",
-              "ToolTip": "C:\\Users\\dimit\\Desktop\\Practice-repo\\Web\\Webstore\\Services\\Discount\\Discount.Common\\Repository\\CouponRepository.cs",
-              "RelativeToolTip": "Services\\Discount\\Discount.Common\\Repository\\CouponRepository.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAiwDQAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T22:23:30.118Z",
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\dimit\\Desktop\\Practice-repo\\Web\\Webstore\\Services\\Discount\\Discount.API\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "Services\\Discount\\Discount.API\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\dimit\\Desktop\\Practice-repo\\Web\\Webstore\\Services\\Discount\\Discount.API\\appsettings.Development.json",
+              "RelativeToolTip": "Services\\Discount\\Discount.API\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABpAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-23T16:24:52.992Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ICouponRepository.cs",
-              "DocumentMoniker": "C:\\Users\\dimit\\Desktop\\Practice-repo\\Web\\Webstore\\Services\\Discount\\Discount.Common\\Repository\\ICouponRepository.cs",
-              "RelativeDocumentMoniker": "Services\\Discount\\Discount.Common\\Repository\\ICouponRepository.cs",
-              "ToolTip": "C:\\Users\\dimit\\Desktop\\Practice-repo\\Web\\Webstore\\Services\\Discount\\Discount.Common\\Repository\\ICouponRepository.cs",
-              "RelativeToolTip": "Services\\Discount\\Discount.Common\\Repository\\ICouponRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABOAAAAAAAAAA==",
+              "Title": "DiscountController.cs",
+              "DocumentMoniker": "C:\\Users\\dimit\\Desktop\\Practice-repo\\Web\\Webstore\\Services\\Discount\\Discount.API\\Controllers\\DiscountController.cs",
+              "RelativeDocumentMoniker": "Services\\Discount\\Discount.API\\Controllers\\DiscountController.cs",
+              "ToolTip": "C:\\Users\\dimit\\Desktop\\Practice-repo\\Web\\Webstore\\Services\\Discount\\Discount.API\\Controllers\\DiscountController.cs",
+              "RelativeToolTip": "Services\\Discount\\Discount.API\\Controllers\\DiscountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T22:20:47.138Z",
+              "WhenOpened": "2024-11-23T16:10:08.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\dimit\\Desktop\\Practice-repo\\Web\\Webstore\\Services\\Discount\\Discount.API\\Program.cs",
+              "RelativeDocumentMoniker": "Services\\Discount\\Discount.API\\Program.cs",
+              "ToolTip": "C:\\Users\\dimit\\Desktop\\Practice-repo\\Web\\Webstore\\Services\\Discount\\Discount.API\\Program.cs",
+              "RelativeToolTip": "Services\\Discount\\Discount.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T15:58:59.845Z",
               "EditorCaption": ""
             }
           ]
