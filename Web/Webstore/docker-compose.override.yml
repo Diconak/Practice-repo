@@ -52,11 +52,11 @@ services:
     container_name: basket.api
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
-      - ASPNETCORE_HTTP_PORTS=8080
       - "CacheSettings:ConnectionString=basketdb:6379"
+      - "GrpcSettings:DiscountUrl=http://discount.grpc:8080" 
     depends_on:
       - basketdb
-
+      - discount.grpc
     ports:
       - "8001:8080"
 

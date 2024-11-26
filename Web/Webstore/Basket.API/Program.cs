@@ -1,4 +1,6 @@
+using Basket.API.GrpcServices;
 using Basket.API.Repository;
+using Discount.GRPC.Protos;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,6 +13,11 @@ builder.Services.AddSwaggerGen();
 //Radili smo dependency injection za interface
 builder.Services.AddScoped<IBasketRepository, BasketRepository>();
 builder.Services.AddControllers();
+
+builder.Services.AddGrpcClient<CouponProtoService.CouponProtoServiceClient>(
+    option => option.Address = new Uri(builder.Configuration.GetValue<string>("GrpcSettings:DiscountUrl"))
+    );
+builder.Services.AddScoped<CouponGrpcService>();
 
 //Ovo nam povezuje nas servis, i konfigurise ga, u nasem slucaju, povezuje nas servis na port gde nam se nalazi redis
 builder.Services.AddStackExchangeRedisCache(
