@@ -1,12 +1,88 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\dimit\\Desktop\\Practice-repo\\Web\\Webstore\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{811F7827-2DF5-404E-85ED-C6EFD773D4C1}|Services\\Ordering\\Ordering.Domain\\Ordering.Domain.csproj|c:\\users\\dimit\\desktop\\practice-repo\\web\\webstore\\services\\ordering\\ordering.domain\\aggregates\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{811F7827-2DF5-404E-85ED-C6EFD773D4C1}|Services\\Ordering\\Ordering.Domain\\Ordering.Domain.csproj|solutionrelative:services\\ordering\\ordering.domain\\aggregates\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{811F7827-2DF5-404E-85ED-C6EFD773D4C1}|Services\\Ordering\\Ordering.Domain\\Ordering.Domain.csproj|c:\\users\\dimit\\desktop\\practice-repo\\web\\webstore\\services\\ordering\\ordering.domain\\entities\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{811F7827-2DF5-404E-85ED-C6EFD773D4C1}|Services\\Ordering\\Ordering.Domain\\Ordering.Domain.csproj|solutionrelative:services\\ordering\\ordering.domain\\entities\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{811F7827-2DF5-404E-85ED-C6EFD773D4C1}|Services\\Ordering\\Ordering.Domain\\Ordering.Domain.csproj|c:\\users\\dimit\\desktop\\practice-repo\\web\\webstore\\services\\ordering\\ordering.domain\\value objects\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{811F7827-2DF5-404E-85ED-C6EFD773D4C1}|Services\\Ordering\\Ordering.Domain\\Ordering.Domain.csproj|solutionrelative:services\\ordering\\ordering.domain\\value objects\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{811F7827-2DF5-404E-85ED-C6EFD773D4C1}|Services\\Ordering\\Ordering.Domain\\Ordering.Domain.csproj|c:\\users\\dimit\\desktop\\practice-repo\\web\\webstore\\services\\ordering\\ordering.domain\\exceptions\\orderingdomainexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{811F7827-2DF5-404E-85ED-C6EFD773D4C1}|Services\\Ordering\\Ordering.Domain\\Ordering.Domain.csproj|solutionrelative:services\\ordering\\ordering.domain\\exceptions\\orderingdomainexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\dimit\\Desktop\\Practice-repo\\Web\\Webstore\\Services\\Ordering\\Ordering.Domain\\Aggregates\\Order.cs",
+              "RelativeDocumentMoniker": "Services\\Ordering\\Ordering.Domain\\Aggregates\\Order.cs",
+              "ToolTip": "C:\\Users\\dimit\\Desktop\\Practice-repo\\Web\\Webstore\\Services\\Ordering\\Ordering.Domain\\Aggregates\\Order.cs",
+              "RelativeToolTip": "Services\\Ordering\\Ordering.Domain\\Aggregates\\Order.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAswDMAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T22:18:22.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Address.cs",
+              "DocumentMoniker": "C:\\Users\\dimit\\Desktop\\Practice-repo\\Web\\Webstore\\Services\\Ordering\\Ordering.Domain\\Value Objects\\Address.cs",
+              "RelativeDocumentMoniker": "Services\\Ordering\\Ordering.Domain\\Value Objects\\Address.cs",
+              "ToolTip": "C:\\Users\\dimit\\Desktop\\Practice-repo\\Web\\Webstore\\Services\\Ordering\\Ordering.Domain\\Value Objects\\Address.cs",
+              "RelativeToolTip": "Services\\Ordering\\Ordering.Domain\\Value Objects\\Address.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T22:15:41.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OrderingDomainException.cs",
+              "DocumentMoniker": "C:\\Users\\dimit\\Desktop\\Practice-repo\\Web\\Webstore\\Services\\Ordering\\Ordering.Domain\\Exceptions\\OrderingDomainException.cs",
+              "RelativeDocumentMoniker": "Services\\Ordering\\Ordering.Domain\\Exceptions\\OrderingDomainException.cs",
+              "ToolTip": "C:\\Users\\dimit\\Desktop\\Practice-repo\\Web\\Webstore\\Services\\Ordering\\Ordering.Domain\\Exceptions\\OrderingDomainException.cs",
+              "RelativeToolTip": "Services\\Ordering\\Ordering.Domain\\Exceptions\\OrderingDomainException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T22:04:21.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OrderItem.cs",
+              "DocumentMoniker": "C:\\Users\\dimit\\Desktop\\Practice-repo\\Web\\Webstore\\Services\\Ordering\\Ordering.Domain\\Entities\\OrderItem.cs",
+              "RelativeDocumentMoniker": "Services\\Ordering\\Ordering.Domain\\Entities\\OrderItem.cs",
+              "ToolTip": "C:\\Users\\dimit\\Desktop\\Practice-repo\\Web\\Webstore\\Services\\Ordering\\Ordering.Domain\\Entities\\OrderItem.cs",
+              "RelativeToolTip": "Services\\Ordering\\Ordering.Domain\\Entities\\OrderItem.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB4AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T21:56:27.724Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
