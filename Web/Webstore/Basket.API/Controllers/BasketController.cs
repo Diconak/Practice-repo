@@ -1,4 +1,5 @@
 ﻿using Basket.API.Entities;
+using Basket.API.GrpcServices;
 using Basket.API.Repository;
 using Microsoft.AspNetCore.Mvc;
 
@@ -9,8 +10,13 @@ namespace Basket.API.Controllers
     public class BasketController : ControllerBase
     {
         private readonly IBasketRepository _basketRepository;
-        public BasketController(IBasketRepository basketRepository) { 
+        private readonly ILogger<BasketController> _logger;
+        private readonly CouponGrpcService _couponService;
+
+        public BasketController(IBasketRepository basketRepository, ILogger<BasketController> logger, CouponGrpcService couponGrpcService) { 
             _basketRepository = basketRepository ?? throw new ArgumentNullException(nameof(basketRepository));
+            _logger = logger ?? throw new ArgumentNullException(nameof(_logger));
+            _couponService = couponGrpcService ?? throw new ArgumentNullException(nameof(couponGrpcService));
         }
 
         [HttpGet("{username}")]
@@ -27,12 +33,26 @@ namespace Basket.API.Controllers
         [HttpPut]
         [ProducesResponseType(typeof(ShoppingCart), StatusCodes.Status200OK)]
         [ProducesResponseType(typeof(ShoppingCart), StatusCodes.Status404NotFound)]
-        public async Task<ActionResult<ShoppingCart>> UpdateBasket([FromBody] ShoppingCart basket) { 
-            var cart = await _basketRepository.UpdateBasket(basket);
-            if (cart == null) {
-                return NotFound();
+        public async Task<ActionResult<ShoppingCart>> UpdateBasket([FromBody] ShoppingCart basket) {
+
+            foreach (var item in basket.Items)
+            {
+
+                try
+                {
+
+                    var coupon = await _couponService.GetDiscount(item.ProductName);
+                    item.Price -= coupon.Amount;
+
+                }
+                catch (Exception ex)
+                {
+                    _logger.LogInformation("Error while retreaving coupon");
+                }
+
             }
-            return Ok(cart);
+
+            return Ok(_basketRepository.UpdateBasket(basket));
         }
 
         [HttpDelete]
