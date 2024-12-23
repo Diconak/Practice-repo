@@ -1,4 +1,7 @@
 import {createRoot} from "react-dom/client"
+import HeaderComponent from "./componentPractice/HeaderContent"
+import MainContent from "./componentPractice/MainContent"
+import FooterContent from "./componentPractice/FooterContent"
 
 const root = createRoot(document.getElementById("root"))
 
@@ -19,7 +22,20 @@ function ReactFacts(){
     return logo
 }
 
+function CustomPage(){
+
+    const page = 
+    <>
+       <HeaderComponent/>
+       <MainContent/>
+       <FooterContent/>
+    </>
+
+    return page
+}
+
 root.render(
-    
-    <ReactFacts/>
+    <div>
+        <CustomPage/>
+    </div>
 )
