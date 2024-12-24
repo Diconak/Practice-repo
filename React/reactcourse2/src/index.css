@@ -1,0 +1,77 @@
+body{
+  margin: 0;
+}
+.compHeader{
+  font-family: Inter, sans-serif;
+  background-color: #ff3d3d;
+  display: flex;
+  align-items: center;
+  color:  white;
+  justify-content: center;
+  height: 55px;
+}
+.globe{
+  width: 40px ;
+  margin-right: 7px;
+  
+}
+
+.compH1{
+  font-family: Inter;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.entryArticle {
+  display: flex;
+  margin-bottom: 36px;
+  margin-left: 16px;
+}
+
+.entryHeader{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.entrySpan{
+  margin-left: 7px;
+  font-family: Inter;
+}
+
+.entryA{
+  margin-left: 7px;
+  opacity: 30%;
+}
+
+.location {
+    width: 20px;
+    margin-right: 20px;
+}
+
+.mtFujiImg{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.mainImageContainer{
+  width: 125px;
+  height: 150px;
+  overflow: hidden;
+  border-radius: 10px;
+  flex-shrink: 0;
+  margin-right: 19px;
+}
+
+
+.entryH1{
+  font-size: 26px;
+  font-weight: bold;
+  font-family: Inter;
+}
+
+.entryH4{
+  font-size: 16px;
+}
