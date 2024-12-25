@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, sans-serif;
+  background-color: #fffaf2
+}
+
+.Header {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 11px;
+  height: 80px;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.1), 0px 1px 2px 0px rgba(0, 0, 0, 0.06);
+}
+
+.ChefClaudeIcon {
+  margin-right: 10px;
+  width: 50px;
+}
+
+.headerSpan{
+  font-family: Inter;
+  font-weight: 400;
+}
+
+main {
+  padding: 30px 30px 10px;
+}
+
+.addIngredientForm {
+  display: flex;
+  justify-content:  center;
+  height: 38px;
+  gap: 12px;
+}
+
+.addIngredientForm > input {
+  border-radius: 6px;
+  border: 1px solid #D1D5D1;
+  padding: 9px 13px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+  flex-grow: 1; 
+  min-width: 150px;
+  max-width: 400px;
+}
+
+.addIngredientForm > button {
+  font-family: Inter, sans-serif;
+  border-radius: 6px;
+  border: none;
+  background-color: #141413;
+  color: #FAFAF8;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.addIngredientForm > button::before{
+  content: "+";
+}
+
+.thingsMain {
+  background-color: lime;
+  display:flex;
+  justify-content:center;
+  align-items:flex-start;
+  height: 800px;
+}
+
+.thingsMain > button {
+  border-radius: 50px;
+  color: white;
+  border-color: white;
+  border-style: solid;
+  width: 150px;
+  height: 70px;
+  background-color: lime;
+  font-size: medium;
+  font-style: Inter;
+}
+
+.formCompMain {
+  background-color: aquamarine;
+  height: 800px;
+  justify-content: center;
+}
+
+.formCompMain > form > .email {
+    border-radius: 20px;
+    height: 30px;
+}
+
+.formCompMain > form > .password {
+    border-radius: 20px;
+    height: 30px;
+}
+
+.formCompMain >form > button {
+  border-radius: 20px;
+  height: 30px;
+  border-style: solid;
+  border-color: black;
+  margin-top: 20px;
+  width: 170px;
+
+}
+
+.formCompMain > form > fieldset{
+  max-width: 170px;
+  
+}
