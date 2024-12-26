@@ -113,3 +113,36 @@ main {
   max-width: 170px;
   
 }
+
+ 
+
+.getRecipeContainer {
+  display: flex;
+  background-color: #ffdca5;
+  justify-content: center;
+  align-items: center;
+} 
+
+.getRecipeContainer > div > h3
+{
+  font-family: Inter;
+  font-weight: 600;
+  margin-left: 10px;
+}
+.getRecipeContainer > div > p
+{
+  font-family: Inter;
+  font-weight: 200;
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+.getRecipeContainer > button{
+  background-color: #e8852d;
+  border: none;
+  margin-left: auto;
+  margin-right: 10px;
+  height: 30px;
+  border-radius: 10px;
+}
+
